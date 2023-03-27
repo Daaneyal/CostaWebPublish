@@ -1,0 +1,416 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(Wave.png);
+}
+
+/* this was to set my video background to how i wanted it. I used position flex combined with the width and height to make it to the size and position i needed. */
+#myVideo {
+  position: flex;
+  width: 100%; 
+  height: 100%;
+  margin-top: -40px;
+}
+
+/* navbar styling which links to javascript */
+nav {
+  float: right;
+  display: inline-block;
+  color: white;
+  margin: 5px;
+  margin-right: 50px;
+}
+/* navbar styling which links to javascript */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 2.5px;
+  font-size: 18px;
+  font-family: MagallanesEssential, sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 665px;
+  margin-right: 102px;
+}
+
+
+
+#MainH {
+/* font color will change to white */
+  color: white;
+  margin-left: 282px;
+  position: relative;
+  top: -570px;
+/* the font which is imported from the internet will be used on this text */
+  font-family: MagallanesEssential, sans-serif;
+  font-size: 50px;
+}
+
+#RoloText {
+  position: relative;
+  margin-left: 230px;
+  top: -560px;
+  font-size: 34px;
+  font-family:MagallanesEssential,sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+#RoloText2 {
+  position: relative;
+  margin-left: 325px;
+  top: -590px;
+  font-size: 34px;
+  font-family:MagallanesEssential, sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* "Menu" was my first button which says "see the menu". I used border radius to make the edges more round. I removed the borders by using border:none.  */
+#Menu {
+  position: relative;
+  background: white;
+  border: none;
+  color: #6d1f37;
+  height: 53px;
+  width: 170px;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  margin-left: 415px;
+  top: -590px;
+  font-size: 17px;
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+
+/* this code is to make the button hover when the cursor is over the button */
+#Menu:hover{
+  background-color: #b51244;
+  color:white;
+}
+
+
+
+/* The second button */
+#More {
+  position: relative;
+  background: #6d1f37;
+  border: none;
+  color: white;
+  height: 53px;
+  width: 170px;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 50px;
+  margin-left: 386px;
+  top: -947px;
+  font-size: 17px;
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+/* this code is to make the button hover when the cursor is over the button */
+#More:hover{
+  background-color: #b51244;
+}
+
+/* this is an image which was downloaded.  */
+#wave1 {
+  position: absolute;
+/* width been set to make it fit the section i needed it in */
+  width: 100%;
+  height: 60%;
+  top: 490px;
+}
+
+#Product {
+  position: relative;
+  color: #6d1f37;
+  margin-left: 1000px;
+  font-size: 50px;
+  font-family:MagallanesEssential, sans-serif;
+  top: -400px;
+}
+
+#Glass {
+  position: relative;
+  color: #6d1f37;
+  margin-left: 1000px;
+  font-size: 50px;
+  font-family:MagallanesEssential, sans-serif;
+  top: -434px;
+}
+
+#ProdText1 {
+  position: relative;
+  color: #6d1f37;
+  margin-left: 975px;
+  font-size: 34px;
+  font-family:MagallanesEssential, sans-serif;
+  top: -435px;
+  font-weight: bold;
+}
+#ProdText2 {
+  position: relative;
+  color: #6d1f37;
+  margin-left: 970px;
+  font-size: 34px;
+  font-family:MagallanesEssential, sans-serif;
+  top: -465px;
+  font-weight: bold
+}
+
+#ProdText3 {
+  position: relative;
+  color: #6d1f37;
+  margin-left: 1170px;
+  font-size: 34px;
+  font-family:MagallanesEssential, sans-serif;
+  top: -495px;
+  font-weight: bold;
+}
+
+
+#Cup {
+  position: relative;
+  height: 470px;
+  width: 710px;
+  top: -850px;
+  margin-left: 75px;
+}
+
+
+#MidImg{
+  position: relative;
+  left: 360px;
+  color: #6d1f37;
+  font-size: 12px;
+  bottom: 1460px;
+  font-family:MagallanesEssential, sans-serif;
+  text-align: center;
+}
+
+#myimg{
+  position: relative;
+  top: -10px;
+}
+
+/* this is the button which is created within JavaScript */
+#Button1 {
+  position: absolute;
+  background-color: #6d1f37;
+  color: white;
+  font-size: 20px;
+  height: 25px;
+  width: 150px;
+  padding: 18px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* this is the how i was able to give it the hover effect. */
+#Button1:hover{
+  background-color: #b51244;
+/*text color to remain white */
+  color:white;
+}
+
+#Lunch {
+  position: relative;
+  left: 710px;
+  color: #6d1f37;
+  bottom: 2062px;
+  display: flex;
+  height: 600px;
+  width: 330px;
+  display: inline-block;
+  text-align: center;
+}
+
+#Button2 {
+  position: absolute;
+  background-color: #6d1f37;
+  color: white;
+  font-size: 20px;
+  height: 25px;
+  width: 150px;
+  padding: 18px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* make button change color when hovered over */
+#Button2:hover{
+  background-color: #b51244;
+/*text color to remain white */
+  color:white;
+}
+
+#routine {
+  position: relative;
+  width: 330px;
+  height: 600px;
+  left: 729px;
+  bottom: 2180px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+#Button3 {
+  position: absolute;
+  background-color: #6d1f37;
+  color: white;
+  font-size: 20px;
+  height: 25px;
+  width: 150px;
+  padding: 18px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/*third button within JavaScript*/
+#Button3:hover{
+/*button to change to this color when curser hovers over*/
+  background-color: #b51244;
+  color:white;
+}
+
+/* section to be made to be behind the lists */
+#maroon {
+/* section to be this color */
+  background: #b51144;
+  position: relative;
+  display: fixed;
+  top: 300px;
+  height: 800px;
+}
+
+
+/* code for the list header */
+#lh1{
+  color: white;
+  position: relative;
+  left: 150px;
+  top: 87px;
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+#list1 {
+  position: relative;
+/*list style type none to get rid of the marker points*/
+  list-style-type: none;
+  color: white;
+  /*imported font from the internet being used*/
+  font-family:MagallanesEssential, sans-serif;
+  font-size: 18px;
+  left: 110px;
+  top: 138px;
+} 
+
+
+#lh2 {
+  color: white;
+  position: relative;
+  left: 380px;
+  top: -220px;
+/*imported font from the internet being used*/
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+
+#list2 {
+  position: relative;
+  list-style-type: none;
+  color: white;
+  font-family:MagallanesEssential, sans-serif;
+  font-size: 18px;
+  left: 340px;
+  top: -172px;
+}
+
+#lh3 {
+  color: white;
+  position: relative;
+  left: 685px;
+  top: -690px;
+
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+
+#list3 {
+  position: relative;
+  list-style-type: none;
+  color: white;
+  /*imported font from the internet being used*/
+  font-family:MagallanesEssential, sans-serif;
+  font-size: 18px;
+  left: 645px;
+  top: -645px;
+}
+
+#lh4 {
+  color: white;
+  position: relative;
+  left: 940px;
+  top: -860px;
+  /*imported font from the internet being used*/
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+
+#list4 {
+  position: relative;
+  list-style-type: none;
+  color: white;
+  font-family:MagallanesEssential, sans-serif;
+  font-size: 18px;
+  left: 900px;
+  top: -820px;
+}
+
+#lh5 {
+  color: white;
+  position: relative;
+  left: 1215px;
+  top: -985px;
+  /*imported font from the internet being used*/
+  font-family:MagallanesEssential, sans-serif;
+  font-weight: bold;
+}
+
+#list5 {
+  position: relative;
+/*removes marker next to the list*/
+  list-style-type: none;
+  color: white;
+  font-family:MagallanesEssential, sans-serif;
+  font-size: 18px;
+  left: 1177px;
+  top: -945px;
+}
+
+/* change the position of the footer*/
+#footer {
+  position: relative;
+  bottom: 1038px;
+}
+
+/*importing font from the internet  */
+@font-face { 
+/*Every time i type in this code to a font family style, it will set the text with this imported font*/
+  font-family: MagallanesEssential; 
+  src: url('Magallanes\ Essential\ W00\ Black.ttf'); 
+  font-weight:bold;
+}
